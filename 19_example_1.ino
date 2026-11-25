@@ -126,3 +126,15 @@ unsigned int ir_sensor_filtered(unsigned int n, float position, int verbose)
   
   return ret_val;
 }
+
+/*
+[참고 자료]
+1. UCSB CS24 Lecture 3
+https://ucsb-cs24.github.io/w26/lectures/lect03
+
+2. Bowdoin College CSCI 210 Lecture 6 (Program Analysis)
+https://tildesites.bowdoin.edu/~ltoma/teaching/cs210/fall07/Lectures/L6.pdf
+
+3. AVR-LibC User Manual, stdlib.h (qsort)
+https://avrdudes.github.io/avr-libc/avr-libc-user-manual/stdlib_8h_source.html
+*/
